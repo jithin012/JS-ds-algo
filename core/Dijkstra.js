@@ -14,7 +14,6 @@ class WeighedGraph {
         if(!this.adjacencyList[vertex]) {
             this.adjacencyList[vertex] = [];
         }
-        this.adjacencyList[vertex].push(vertex);
     }
 
     addEdge(v1, v2, weight) {
